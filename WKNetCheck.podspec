@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   	:tag => "#{spec.version}" 
   }
 
-  spec.source_files  = "WKNetCheck/*"
+  spec.source_files  = "WKNetCheck/*/*.{h,m}"
    spec.requires_arc = true
 
 end
